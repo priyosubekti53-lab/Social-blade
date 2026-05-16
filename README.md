@@ -298,3 +298,4 @@ Graph of world population over the past 12,000 years (<a href="/wiki/Holocene" t
 <td></td>
 <td></td
 title="(July 1) 
+title=" 5,322,499,645
