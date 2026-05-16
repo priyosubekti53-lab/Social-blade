@@ -301,4 +301,141 @@ title="(July 1)
 title=" 5,322,499,645
 title="January 1"
 name: Update population dataset
-on:
+oname": "population-city",
+  "last_updated": "2026-02-26",
+  "title": "City Population Annual Timeseries (UN Statistics Division)",
+  "description": "City population yearly timeseries for female and male, and for both sexes, collected by the United Nations Statistics Division and published by UNData in 22 Dec 2014\r\n\r\nNext update in UNdata: Jun 2015 (est.)\r\nPeriodicity: biannual.\r\n\r\nContains two datasets in CSV format:\t\r\nunsd-citypopulation-year-both.csv\t\tSize: 2.4 MB\t\r\nunsd-citypopulation-year-fm.csv\t\tFile size: 3.7 MB\r\n\r\nFinal 222 lines in both datasets contain original notes.",
+  "licenses": [
+    {
+      "name": "ODC-PDDL-1.0",
+      "path": "http://opendatacommons.org/licenses/pddl/",
+      "title": "Open Data Commons Public Domain Dedication and License v1.0"
+    }
+  ],
+  "sources": [
+    {
+      "name": "UNData: UNSD Demographic Statistics",
+      "path": "http://data.un.org/Data.aspx?d=POP&f=tableCode:240",
+      "title": "UNData: UNSD Demographic Statistics"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Santiago Martin",
+      "email": "hello@santimartin.eu"
+    }
+  ],
+  "resources": [
+    {
+      "name": "unsd-citypopulation-year-both",
+      "path": "data/unsd-citypopulation-year-both.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "UTF-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Country or Area",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "Area",
+            "type": "string"
+          },
+          {
+            "name": "Sex",
+            "type": "string"
+          },
+          {
+            "name": "City",
+            "type": "string"
+          },
+          {
+            "name": "City type",
+            "type": "string"
+          },
+          {
+            "name": "Record Type",
+            "type": "string"
+          },
+          {
+            "name": "Reliability",
+            "type": "string"
+          },
+          {
+            "name": "Source Year",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "string"
+          },
+          {
+            "name": "Value Footnotes",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "unsd-citypopulation-year-fm",
+      "path": "data/unsd-citypopulation-year-fm.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "UTF-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Country or Area",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "string"
+          },
+          {
+            "name": "Area",
+            "type": "string"
+          },
+          {
+            "name": "Sex",
+            "type": "string"
+          },
+          {
+            "name": "City",
+            "type": "string"
+          },
+          {
+            "name": "City type",
+            "type": "string"
+          },
+          {
+            "name": "Record Type",
+            "type": "string"
+          },
+          {
+            "name": "Reliability",
+            "type": "string"
+          },
+          {
+            "name": "Source Year",
+            "type": "string"
+          },
+          {
+            "name": "Value",
+            "type": "string"
+          },
+          {
+            "name": "Value Footnotes",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ],
+  "collection": "demographics"
+}n:
