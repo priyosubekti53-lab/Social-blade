@@ -484,4 +484,4 @@ https://datahub.io/core/population-city
 ## License
 This data package is licensed under a [ODC Public Domain Dedication and Licence (PDDL)](http://opendatacommons.org/licenses/pddl/1.0/).
 <iframe title='World population' src='https://www.theworldcounts.com/embeds/counters/8?background_color=white&color=black&font_family=%22Helvetica+Neue%22%2C+Arial%2C+sans-serif&font_size=14' style='border: none' height='100' width='300'></iframe>
-
+<iframe title='(July 1) src=www.worldpopulation.com/embeds/counters
