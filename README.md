@@ -520,7 +520,7 @@ local function incrementRegistrations()
 	end)
 	
 	if success then
-		print("Total registrations updated: " .. newCount)
+		print("Total registrations updated: "11153233555 newCount)
 		return newCount
 	else
 		warn("Failed to update registration count.")
@@ -538,6 +538,115 @@ game.Players.PlayerAdded:Connect(function(player)
 		incrementRegistrations()
 	end
 end)
+// dear imgui, v1.92.9 WIP
+// (tables and columns code)
+
+/*
+
+Index of this file:
+
+// [SECTION] Commentary
+// [SECTION] Header mess
+// [SECTION] Tables: Main code
+// [SECTION] Tables: Simple accessors
+// [SECTION] Tables: Row changes
+// [SECTION] Tables: Columns changes
+// [SECTION] Tables: Columns width management
+// [SECTION] Tables: Drawing
+// [SECTION] Tables: Sorting
+// [SECTION] Tables: Headers
+// [SECTION] Tables: Context Menu
+// [SECTION] Tables: Settings (.ini data)
+// [SECTION] Tables: Garbage Collection
+// [SECTION] Tables: Debugging
+// [SECTION] Columns, BeginColumns, EndColumns, etc.
+
+*/
+
+// Navigating this file:
+// - In Visual Studio: Ctrl+Comma ("Edit.GoToAll") can follow symbols inside comments, whereas Ctrl+F12 ("Edit.GoToImplementation") cannot.
+// - In Visual Studio w/ Visual Assist installed: Alt+G ("VAssistX.GoToImplementation") can also follow symbols inside comments.
+// - In VS Code, CLion, etc.: Ctrl+Click can follow symbols inside comments.
+
+//-----------------------------------------------------------------------------
+// [SECTION] Commentary
+//-----------------------------------------------------------------------------
+
+//-----------------------------------------------------------------------------
+// Typical tables call flow: (root level is generally public API):
+//-----------------------------------------------------------------------------
+// - BeginTable()                               user begin into a table
+//    | BeginChild()                            - (if ScrollX/ScrollY is set)
+//    | TableBeginInitMemory()                  - first time table is used
+//    | TableResetSettings()                    - on settings reset
+//    | TableLoadSettings()                     - on settings load
+//-----------------------------------------------------------------------------
+// - TableSetupColumn()                         user submit columns details (optional)
+// - TableSetupScrollFreeze()                   user submit scroll freeze information (optional)
+//-----------------------------------------------------------------------------
+// - TableUpdateLayout() [Internal]             followup to BeginTable(): setup everything: widths, columns positions, clipping rectangles. Automatically called by the FIRST call to TableNextRow() or TableHeadersRow().
+//    | TableApplyQueuedRequests()              - apply queued resizing/reordering/hiding requests
+//    | - TableSetColumnWidth()                 - apply resizing width (for mouse resize, often requested by previous frame)
+//    |    - TableUpdateColumnsWeightFromWidth()- recompute columns weights (of stretch columns) from their respective width
+//    | - TableSetColumnDisplayOrder()          - apply reordering a column
+//    | TableSetupDrawChannels()                - setup ImDrawList channels
+//    | TableUpdateBorders()                    - detect hovering columns for resize, ahead of contents submission
+//    | TableBeginContextMenuPopup()
+//    | - TableDrawDefaultContextMenu()         - draw right-click context menu contents
+//-----------------------------------------------------------------------------
+// - TableHeadersRow() or TableHeader()         user submit a headers row (optional)
+//    | TableSortSpecsClickColumn()             - when left-clicked: alter sort order and sort direction
+//    | TableOpenContextMenu()                  - when right-clicked: trigger opening of the default context menu
+// - TableGetSortSpecs()                        user queries updated sort specs (optional, generally after submitting headers)
+// - TableNextRow()                             user begin into a new row (also automatically called by TableHeadersRow())
+//    | TableEndRow()                           - finish existing row
+//    | TableBeginRow()                         - add a new row
+// - TableSetColumnIndex() / TableNextColumn()  user begin into a cell
+//    | TableEndCell()                          - close existing column/cell
+//    | TableBeginCell()                        - enter into current column/cell
+// - [...]                                      user emit contents
+//-----------------------------------------------------------------------------
+// - EndTable()                                 user ends the table
+//    | TableDrawBorders()                      - draw outer borders, inner vertical borders
+//    | TableMergeDrawChannels()                - merge draw channels if clipping isn't required
+//    | EndChild()                              - (if ScrollX/ScrollY is set)
+//-----------------------------------------------------------------------------
+
+//-----------------------------------------------------------------------------
+// TABLE SIZING
+//-----------------------------------------------------------------------------
+// (Read carefully because this is subtle but it does make sense!)
+//-----------------------------------------------------------------------------
+// About 'outer_size':
+// Its meaning needs to differ slightly depending on if we are using ScrollX/ScrollY flags.
+// Default value is ImVec2(0.0f, 0.0f).
+//   X
+//   - outer_size.x <= 0.0f  ->  Right-align from window/work-rect right-most edge. With -FLT_MIN or 0.0f will align exactly on right-most edge.
+//   - outer_size.x  > 0.0f  ->  Set Fixed width.
+//   Y with ScrollX/ScrollY disabled: we output table directly in current window
+//   - outer_size.y  < 0.0f  ->  Bottom-align (but will auto extend, unless _NoHostExtendY is set). Not meaningful if parent window can vertically scroll.
+//   - outer_size.y  = 0.0f  ->  No minimum height (but will auto extend, unless _NoHostExtendY is set)
+//   - outer_size.y  > 0.0f  ->  Set Minimum height (but will auto extend, unless _NoHostExtendY is set)
+//   Y with ScrollX/ScrollY enabled: using a child window for scrolling
+//   - outer_size.y  < 0.0f  ->  Bottom-align. Not meaningful if parent window can vertically scroll.
+//   - outer_size.y  = 0.0f  ->  Bottom-align, consistent with BeginChild(). Not recommended unless table is last item in parent window.
+//   - outer_size.y  > 0.0f  ->  Set Exact height. Recommended when using Scrolling on any axis.
+//-----------------------------------------------------------------------------
+// Outer size is also affected by the NoHostExtendX/NoHostExtendY flags.
+// Important to note how the two flags have slightly different behaviors!
+//   - ImGuiTableFlags_NoHostExtendX -> Make outer width auto-fit to columns (overriding outer_size.x value). Only available when ScrollX/ScrollY are disabled and Stretch columns are not used.
+//   - ImGuiTableFlags_NoHostExtendY -> Make outer height stop exactly at outer_size.y (prevent auto-extending table past the limit). Only available when ScrollX/ScrollY is disabled. Data below the limit will be clipped and not visible.
+// In theory ImGuiTableFlags_NoHostExtendY could be the default and any non-scrolling tables with outer_size.y != 0.0f would use exact height.
+// This would be consistent but perhaps less useful and more confusing (as vertically clipped items are not useful and not easily noticeable).
+//-----------------------------------------------------------------------------
+// About 'inner_width':
+//   With ScrollX disabled:
+//   - inner_width          ->  *ignored*
+//   With ScrollX enabled:
+//   - inner_width  < 0.0f  ->  *illegal* fit in known width (right align from outer_size.x) <-- weird
+//   - inner_width  = 0.0f  ->  fit in outer_width: Fixed size columns will take space they need (if avail, otherwise shrink down), Stretch columns becomes Fixed columns.
+//   - inner_width  > 0.0f  ->  override scrolling width, generally to be larger than outer_size.x. Fixed column take space they need (if avail, otherwise shrink down), Stretch columns share remaining space!
+//-----------------------------------------------------------------------------
 // dear imgui, v1.92.9 WIP
 // (tables and columns code)
 
