@@ -783,3 +783,26 @@ bitmaps["Xbutton2"] := Gdip_BitmapFromBase64("iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCA
 bitmaps['Seeds'] := Gdip_BitmapFromBase64("iVBORw0KGgoAAAANSUhEUgAAAAIAAAADCAYAAAC56t6BAAAAIUlEQVR4AWIy7Gf4bzSZ4T8TIysDAws/AwMTiGDmZGAAAAAA///+AOb+AAAABklEQVQDAE+iA8LxrlpUAAAAAElFTkSuQmCC")
 bitmaps['Garden'] := Gdip_BitmapFromBase64("iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAM0lEQVR4AQAnANj/AnxSMP9xSiz/ZkQo/wLz9/sA9vr7AAcEAgAC+Pr8AAUDAgANCAQAAAAA//8xWfogAAAABklEQVQDAFn6DqmJveuCAAAAAElFTkSuQmCC")
 bitmaps['Sell'] := Gdip_BitmapFromBase64("iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAUElEQVR4AQBEALv/AsKbMv/RqDb/4rU6/+y+Pf8CBgUBAPHz+wDt8PoA8/T7AAIWEAMACQYBAPHz+wDs7/oAAgwJAgAUDwMADQoCAPX3/AAAAAD//wLf8P4AAAAGSURBVAMAfjAcyoQvL6IAAAAASUVORK5CYII=")
+{{Short description|First US census}}
+{{Use American English|date = March 2019}}
+{{Use mdy dates|date=May 2024}}
+{{Infobox census
+| name = 1790 United States census
+| image = 1790a-01-page-001.jpg
+| image_caption = Title page of 1790 United States census
+| country = United States
+| date = {{start date|1790|08|02}}
+| population = 3,929,214
+| percent_change = 
+| region_type = state
+| most_populous = [[Virginia]] (747,610)
+| least_populous = [[Delaware]] (59,094)
+| authority = [[United States Marshals Service|Office of the United States Marshal]]
+| next_census = 1800 United States census
+| next_year = 1800
+}}
+The '''1790 United States census''' was the first [[United States census]]. It recorded the population of the whole United States as of Census Day, August 2, 1790, as mandated by [[Article 1 of the United States Constitution|Article 1, Section 2, of the Constitution]] and applicable laws. In the first census, the population of the United States was enumerated to be 3,929,214 inhabitants.<ref>{{cite web |last1=Census History Staff |title=1790 Fast Facts - History |url=https://www.census.gov/history/www/through_the_decades/fast_facts/1790_fast_facts.html |website=US Census Bureau |access-date=April 20, 2023 |language=EN-US}}</ref><ref name="USCensus-Heads 1790-1908"/>
+
+Congress assigned responsibility for the 1790 census to the [[United States Marshals Service|marshals of United States judicial districts]] under an act, which with minor modifications and extensions, governed census taking through the 1840 census. "The law required that every household be visited, that completed census schedules be posted in 'two of the most public places within [each jurisdiction], there to remain for the inspection of all concerned...' and that 'the aggregate amount of each description of persons' for every district be transmitted to the [[President of the United States|president]]."<ref name=1790overview>{{cite web |last1=Census History Staff |title=1790 Overview - History - U.S. Census Bureau |url=https://www.census.gov/history/www/through_the_decades/overview/1790.html |website=US Census Bureau |access-date=April 20, 2023 |language=EN-US}}</ref>
+
+The census was published in 1791.<ref name=":0">{{Cite journal |last=Lunt |first=Edward C. |date=1888 |title=History of the United States Census |url=https://www.jstor.org/stable/2276342 |journal=Publications of the American Statistical Association |volume=1 |issue=2/3 |pages=63–93 |doi=10.2307/2276342 |jstor=2276342 |issn=1522-5437|url-access=subscription }}</ref> It was 56 pages and cost $44,377.28.<ref name=":0" />
