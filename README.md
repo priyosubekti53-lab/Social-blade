@@ -847,3 +847,5 @@ However, the latest submission still including Youtube links for citation, that'
 {{Userboxbottom}}
 {{Babel|en|en-5|de-2|fr-2|ja-2}}
 {{User Wiki Workers United}}
+* [[Wikipedia:Administrator elections/May 2026/Candidates/Bobby Cohn|Bobby Cohn]], with {{u|Vanamonde93}}
+* [[Wikipedia:Administrator elections/May 2026/Candidates/Ca|Ca]], with {{u|Vanamonde93}}
