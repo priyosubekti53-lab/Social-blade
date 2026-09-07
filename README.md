@@ -833,3 +833,16 @@ http://d.adroll.com/click/?adroll_insertion_id=59237bcb3cec3710840347a7102ac7e5&
 However, the latest submission still including Youtube links for citation, that's unreliable source. In fact, google patent is also a weird source, you may want to link the specific patent. [[user:Lemonaka|<span style="color:blue; text-shadow:jet 0 0.2em 0.2em; font-family:Segoe Print; font-size: 13px">-Lemonaka</span>]] 06:44, 30 January 2025 (UTC)}}
 [[Wikipedia:Requests for adminship/MCE89|MCE89]], with {{u|Sennecaster}}
 * [[Wikipedia:Requests for adminship/Dclemens1971|Dclemens1971]], with {{u|Hey man im josh}} and {{u|theleekycauldron}}
+{{Userboxtop}}
+{{User Wiki Workers United}}
+{{User teacher university}}
+{{User WP AI Cleanup}}
+{{User WP Anarchism}}
+{{User WikiProject Women in Green}}
+{{User WikiProject Women in Red}}
+{{Wikipedia:WikiProject Books/User Participant}}
+{{User WikiProject Electronic literature}}
+{{User WikiProject Germany}}
+{{User:UBX/EoTWBox}}
+{{Userboxbottom}}
+{{Babel|en|en-5|de-2|fr-2|ja-2}}
