@@ -885,3 +885,4 @@ World population growth
 }}
 http://www.adherents.com/Religions_By_Adherents.html Religions by adherents] {{Webarchive|url=
 [[File:Countries Population 2020.png|thumb|430px|Population in 2020]]
+In a general sense, registered users differ from [[user|users]] in that while a ''user'' is a guest who simply has access to a page, a ''registered user'' has a heightened level of access. This comparison is similar to that of one between a registered user and an [[administrator]].
