@@ -887,7 +887,7 @@ http://www.adherents.com/Religions_By_Adherents.html Religions by adherents] {{W
 [[File:Countries Population 2020.png|thumb|430px|Population in 2020]]
 In a general sense, registered users differ from [[user|users]] in that while a ''user'' is a guest who simply has access to a page, a ''registered user'' has a heightened level of access. This comparison is similar to that of one between a registered user and an [[administrator]].
 {{DISPLAYTITLE:<span style="color: #d7e5f5;">User:</span><span style="color: #9cbfe8; font-family: Bahnschrift; font-weight: bold">'''Frost'''</span>}}
-ohio
+ohio [[Reactor (Supergame)|''Reactor'' (Supergame)]], a 1983 adventure for the role-playing game ''Supergame''
 <div style="border: #eef2ff 5px; background: #eef2ff; border-radius: 8px; padding: 15px; color: #404066; font-family: Playfair Display">{{col-begin}}{{col-break|width=15%}}{{CSS image crop|Image=Adelie penguins in the South Shetland Islands.jpg|bSize=600|cWidth=180|cHeight=200|oTop=150}}{{col-break}}{{spaces|em}}{{spaces|em}}{{col-break}}
 <big><span style="font-family: Bahnschrift">'''About'''</span></big>
 *Hello, and welcome to my userpage! I'm Frost.
