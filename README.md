@@ -899,3 +899,13 @@ ohio [[Reactor (Supergame)|''Reactor'' (Supergame)]], a 1983 adventure for the r
 {{Redirect category shell|
 {{R with possibilities}}
 }}
+{{Short description| American YouTuber (born 1997)}}
+#REDIRECT [[Roblox Corporation#Ruben Sim]]
+{{Use American English|date=March 2026}}
+{{Redirect category shell|{{R from person}}}}
+{{Infobox social media personality
+| name                  = Ruben Sim
+| image                 = Ruben Sim (2026) (cropped).jpg
+| image_caption         = Simon in 2026
+| birth_name            = Benjamin Robert Simon
+| birth_date            = {{Birth date and age|1997|5|12}}<ref group="s">{{cite AV media |people=Ruben Sim |title=Ben's 19th Birthday |url= https://www.youtube.com/watch?v=y3aOxITKDJE |via=[[YouTube]] |date=May 12, 2016 |access-date=March 8, 2026 |time=1:47 |quote=... because I turned 19 today.}}</ref><ref group="s">{{cite AV media |author=ruben.sim | date=May 9, 2021 |title=guys may 12th is my birthday |url=https://www.tiktok.com/@ruben.sim/video/6960440316121844997 |publisher=[[TikTok]] |access-date=March 9, 2026 |archive-url=https://web.archive.org/web/20260309072543/https://www.tiktok.com/@ruben.sim/video/6960440316121844997 |archive-date=March 9, 2026 |url-status=live}}<
