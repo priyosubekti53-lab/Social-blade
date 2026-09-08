@@ -884,3 +884,4 @@ World population growth
 | y1Title=Annual growth (%)
 }}
 http://www.adherents.com/Religions_By_Adherents.html Religions by adherents] {{Webarchive|url=
+[[File:Countries Population 2020.png|thumb|430px|Population in 2020]]
