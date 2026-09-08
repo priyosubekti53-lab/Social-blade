@@ -896,3 +896,6 @@ ohio [[Reactor (Supergame)|''Reactor'' (Supergame)]], a 1983 adventure for the r
 *Sign my [[User:Frost/guestbook|guestbook]].
 {{col-end}}</div></br>
 <div style="border: #eef2ff 5px; background: #eef2ff; border-radius: 8px; padding: 15px; color: #404066; font-family: Playfair Display">{{col-begin}}{{col-break|width=15%}}{{CSS image crop|Image=Inoxcrom Wall Street. Nib. M.jpg|bSize=200|cWidth=180|cHeight=200}}{{col-break}}{{spaces|em}}{{
+{{Redirect category shell|
+{{R with possibilities}}
+}}
