@@ -886,3 +886,13 @@ World population growth
 http://www.adherents.com/Religions_By_Adherents.html Religions by adherents] {{Webarchive|url=
 [[File:Countries Population 2020.png|thumb|430px|Population in 2020]]
 In a general sense, registered users differ from [[user|users]] in that while a ''user'' is a guest who simply has access to a page, a ''registered user'' has a heightened level of access. This comparison is similar to that of one between a registered user and an [[administrator]].
+{{DISPLAYTITLE:<span style="color: #d7e5f5;">User:</span><span style="color: #9cbfe8; font-family: Bahnschrift; font-weight: bold">'''Frost'''</span>}}
+ohio
+<div style="border: #eef2ff 5px; background: #eef2ff; border-radius: 8px; padding: 15px; color: #404066; font-family: Playfair Display">{{col-begin}}{{col-break|width=15%}}{{CSS image crop|Image=Adelie penguins in the South Shetland Islands.jpg|bSize=600|cWidth=180|cHeight=200|oTop=150}}{{col-break}}{{spaces|em}}{{spaces|em}}{{col-break}}
+<big><span style="font-family: Bahnschrift">'''About'''</span></big>
+*Hello, and welcome to my userpage! I'm Frost.
+*I'm male, my pronouns are he/him/his, and I've been on Wikipedia for {{Age in years, months and days|year=2017|month=02|day=13}}.
+*I fight vandalism, review new pages, and edit articles about football, music, film/television and entertainment.
+*Sign my [[User:Frost/guestbook|guestbook]].
+{{col-end}}</div></br>
+<div style="border: #eef2ff 5px; background: #eef2ff; border-radius: 8px; padding: 15px; color: #404066; font-family: Playfair Display">{{col-begin}}{{col-break|width=15%}}{{CSS image crop|Image=Inoxcrom Wall Street. Nib. M.jpg|bSize=200|cWidth=180|cHeight=200}}{{col-break}}{{spaces|em}}{{
