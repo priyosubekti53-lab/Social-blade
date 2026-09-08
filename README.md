@@ -850,3 +850,4 @@ However, the latest submission still including Youtube links for citation, that'
 * [[Wikipedia:Administrator elections/May 2026/Candidates/Bobby Cohn|Bobby Cohn]], with {{u|Vanamonde93}}
 * [[Wikipedia:Administrator elections/May 2026/Candidates/Ca|Ca]], with {{u|Vanamonde93}}
 [[File:Information.svg|25px|alt=Information icon]] Hello, I'm [[User:Hamimh2|Hamimh2]]. I wanted to let you know that one or more of [[Special:Contributions/&#126;2026-48460-44|your recent contributions]]&#32;to [[:Registered user]] have been undone because they did not appear constructive. If you would like to experiment, please use the [[Wikipedia:Sandbox|sandbox]]. If you have any questions, you can ask for assistance at the [[Wikipedia:Teahouse|Teahouse]] or the [[Wikipedia:Help desk|Help desk]]. Thanks.<!-- Template:uw-vandalism1 --> [[User:Hamimh2|Hamimh2]] ([[User talk:Hamimh2|talk]]) 16:48, 7 September 2026 (UTC)
+{{'}}s logo
