@@ -930,3 +930,19 @@ ohio [[Reactor (Supergame)|''Reactor'' (Supergame)]], a 1983 adventure for the r
 |website= [https://www.radyr.org.uk Radyr and Morganstown Community Association]
 }}
 '''Morganstown''' is a part of the [[Community (Wales)|community]] of Radyr and Morganstown in the north of [[Cardiff]], just over {{convert|5|mi|0}} northwest of [[Cardiff city
+{| style="border: 1px solid gray; background-color: #fdffe7;"
+{{User:DangerousPanda/Userboxes/Barnstars/Current Events}}
+|rowspan="2" style="vertical-align:top;" | {{#ifeq:{{{2}}}|alt|[[File:Current Events Barnstar Hires.png|100px]]|[[Image:Current Events Barnstar.png|100px]]}}
+{{User Featured List|United States congressional delegations from Connecticut}}
+{{User Featured List Candidate|United States congressional delegations from Arizona}}
+|rowspan="2" |
+|style="font-size: x-large; padding: 0; vertical-align: bottom; height: 1.1em;" | '''The Current Events Barnstar'''
+|-
+|style="vertical-align: top; border-top: 1px solid gray;" | For your work on [[2024 Crocus City Hall attack]]. [[User:Queen of Hearts|queen of 🖤]] (they/them; [[User talk:Queen of Hearts|chat]]) 19:22, 22 March 2024 (UTC)
+|}
+{{ivmbox
+|image = Cscr-featured.svg
+|imagesize=60px
+|extracss=font-size:1.25em; font-family:Georgia;
+|text = Congratulations, Staraction! The list you nominated, '''[[United States congressional delegations from Connecticut]]''', has been promoted to featured status, recognizing it as one of the best lists on Wikipedia. The '''[[Wikipedia:Featured list candidates/United States congressional delegations from Connecticut/archive1|nomination discussion]]''' has been archived.{{parabr}}This is a rare accomplishment and you should be proud. If you would like, you may [[Wikipedia:Today's featured list/Submissions|nominate it]] to appear on the Main page as Today's featured list. Keep up the great work!  Cheers, {{user0|PresN}} via [[User:FACBot|FACBot]] ([[User talk:FACBot|talk]]) 12:27, 17 May 2024 (UTC)
+}}<!-- Template:FC pass talk message -->
