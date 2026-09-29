@@ -973,3 +973,4 @@ India/Geography|Geography]]
  
 [[talk:India|/Talk]]
 [[History of India]]
+'''Republic of India'''
