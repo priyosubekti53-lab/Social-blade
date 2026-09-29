@@ -972,3 +972,4 @@ India/Geography|Geography]]
 * [[India/Religions|Religions]]
  
 [[talk:India|/Talk]]
+[[History of India]]
