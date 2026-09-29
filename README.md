@@ -974,3 +974,4 @@ India/Geography|Geography]]
 [[talk:India|/Talk]]
 [[History of India]]
 '''Republic of India'''
+http://meta.wikipedia.com/upload/in.gif
