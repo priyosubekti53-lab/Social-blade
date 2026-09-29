@@ -961,3 +961,14 @@ To do this, insert the text <!-- Copy the text as it appears on your page, not a
 Before requesting a new username, [[Special:CentralAuth|check if it is still available]]. If the search says ''"There is no global account for [username]"'', the username is free to use.
 '''Appeals:''' If, after reviewing the [[WP:Guide to appealing blocks|guide to appealing blocks]], you believe this block was made in error, you may [[WP:Appealing a block|appeal it]] by adding the text <!-- Copy the text as it appears on your page, not as it appears in this edit area. --><code><nowiki>{{unblock|reason=Your reason here ~~~~}}</nowiki></code> at the bottom of your talk page. Replace the text "Your reason here" with the reasons you believe the block was an error, and publish the edit. </div><!-- Template:Uw-spamublock -->[[User:Deb|Deb]] ([[User talk:Deb|talk]]) 07:30, 10 September 2026 (UTC)
 V1.0.0 (first release) 
+India/Geography|Geography]]
+* [[India/People|People]]
+* [[India/Government|Government]]
+* [[India/Economy|Economy]]
+* [[India/Communications|Communications]]
+* [[India/Transportation|Transportation]]
+* [[India/Military|Military]]
+* [[India/Transnational issues|Transnational Issues]]
+* [[India/Religions|Religions]]
+ 
+[[talk:India|/Talk]]
