@@ -976,3 +976,7 @@ India/Geography|Geography]]
 '''Republic of India'''
 http://meta.wikipedia.com/upload/in.gif
 [[eo:Barato]][[fr:Inde]]
+{{userbox
+| id       = [[File:U4C logo.svg|40px]]
+| info     = This user is a member of the '''[[:m:Universal Code of Conduct Coordinating Committee|Universal Code of Conduct Coordinating Committee (U4C)]]'''. {{#if:{{{1|}}}|<span style="font-size:0.9em;" class="plainlinks">([{{fullurl:{{{lang_code|en}}}Special:GlobalUsers/u4c-member|limit=1&username={{urlencode:{{{username|{{BASEPAGENAME}}}}}}}}} <span style="color:#5871C6;">verify{{#if:{{{lang_code|}}}|&nbsp;{{{lang_code}}}|}}</span>])</span>|<span style="font-size:0.8em;" class="plainlinks">([{{fullurl:Special:GlobalUsers/u4c-member|limit=1&username={{urlencode:{{{username|{{BASEPAGENAME}}}}}}} <span style="color:#5871C6;">verify</span>])</span>}}}}
+}}
