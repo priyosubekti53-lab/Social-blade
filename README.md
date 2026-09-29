@@ -970,7 +970,7 @@ India/Geography|Geography]]
 * [[India/Military|Military]]
 * [[India/Transnational issues|Transnational Issues]]
 * [[India/Religions|Religions]]
- 
+ Netherlands|
 [[talk:India|/Talk]]
 [[History of India]]
 '''Republic of India'''
