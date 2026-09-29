@@ -975,3 +975,4 @@ India/Geography|Geography]]
 [[History of India]]
 '''Republic of India'''
 http://meta.wikipedia.com/upload/in.gif
+[[eo:Barato]][[fr:Inde]]
