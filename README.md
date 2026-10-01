@@ -980,3 +980,5 @@ http://meta.wikipedia.com/upload/in.gif
 | id       = [[File:U4C logo.svg|40px]]
 | info     = This user is a member of the '''[[:m:Universal Code of Conduct Coordinating Committee|Universal Code of Conduct Coordinating Committee (U4C)]]'''. {{#if:{{{1|}}}|<span style="font-size:0.9em;" class="plainlinks">([{{fullurl:{{{lang_code|en}}}Special:GlobalUsers/u4c-member|limit=1&username={{urlencode:{{{username|{{BASEPAGENAME}}}}}}}}} <span style="color:#5871C6;">verify{{#if:{{{lang_code|}}}|&nbsp;{{{lang_code}}}|}}</span>])</span>|<span style="font-size:0.8em;" class="plainlinks">([{{fullurl:Special:GlobalUsers/u4c-member|limit=1&username={{urlencode:{{{username|{{BASEPAGENAME}}}}}}} <span style="color:#5871C6;">verify</span>])</span>}}}}
 }}
+82|description=Reported by DatBot to AIV/TB2|filterid=189}}. [[User:DatBot|DatBot]] ([[User talk:DatBot|talk]]) 02:33, 1 October 2026 (UTC)
+*:Warned. [[User:Izno|Izno]] ([[User talk:Izno|talk]]) 03:09, 1 October 2026 (UTC)
