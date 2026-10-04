@@ -984,3 +984,144 @@ http://meta.wikipedia.com/upload/in.gif
 *:Warned. [[User:Izno|Izno]] ([[User talk:Izno|talk]]) 03:09, 1 October 2026 (UTC)
 GDP 129.5 Trillion (2026) 
 159.9 Trilliom (GDP) (Future Project) 
+                if (value == null || value.Length > 5000)
+                    return;
+
+                _Password = value;
+                AccountManager.SaveAccounts();
+            }
+        }
+
+        public Account() { }
+
+        public Account(string Cookie, string AccountJSON = null)
+        {
+            SecurityToken = Cookie;
+            
+            AccountJSON ??= AccountManager.MainClient.Execute(MakeRequest("my/account/json", Method.Get)).Content;
+
+            if (!string.IsNullOrEmpty(AccountJSON) && Utilities.TryParseJson(AccountJSON, out AccountJson Data))
+            {
+                Username = Data.Name;
+                UserID = Data.UserId;
+
+                Valid = true;
+
+                LastUse = DateTime.Now;
+
+                AccountManager.LastValidAccount = this;
+            }
+        }
+
+        public RestRequest MakeRequest(string url, Method method = Method.Get) => new RestRequest(url, method).AddCookie(".ROBLOSECURITY", SecurityToken, "/", ".roblox.com");
+
+        public bool GetAuthTicket(out string Ticket)
+        {
+            Ticket = string.Empty;
+
+            if (!GetCSRFToken(out string Token)) return false;
+
+            RestRequest request = MakeRequest("/v1/authentication-ticket/", Method.Post).AddHeader("X-CSRF-TOKEN", Token).AddHeader("Referer", "https://www.roblox.com/games/4924922222/Brookhaven-RP");
+
+            RestResponse response = AccountManager.AuthClient.Execute(request);
+
+            Parameter TicketHeader = response.Headers.FirstOrDefault(x => x.Name == "rbx-authentication-ticket");
+
+            if (TicketHeader != null)
+            {
+                Ticket = (string)TicketHeader.Value;
+
+                return true;
+            }
+
+            return false;
+        }
+
+        public bool GetCSRFToken(out string Result)
+        {
+            RestRequest request = MakeRequest("v1/authentication-ticket/", Method.Post).AddHeader("Referer", "https://www.roblox.com/games/4924922222/Brookhaven-RP");
+
+            RestResponse response = AccountManager.AuthClient.Execute(request);
+
+            if (response.StatusCode != HttpStatusCode.Forbidden)
+            {
+                Result = $"[{(int)response.StatusCode} {response.StatusCode}] {response.Content}";
+                return false;
+            }
+
+            Parameter result = response.Headers.FirstOrDefault(x => x.Name == "x-csrf-token");
+
+            string Token = string.Empty;
+
+            if (result != null)
+            {
+                Token = (string)result.Value;
+                LastUse = DateTime.Now;
+
+                AccountManager.LastValidAccount = this;
+                AccountManager.SaveAccounts();
+            }
+
+            CSRFToken = Token;
+            TokenSet = DateTime.Now;
+            Result = Token;
+
+            return !string.IsNullOrEmpty(Result);
+        }
+
+        public bool CheckPin(bool Internal = false)
+        {
+            if (!GetCSRFToken(out _))
+            {
+                if (!Internal) MessageBox.Show("Invalid Account Session!", "Account Manager", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                return false;
+            }
+
+            if (DateTime.Now < PinUnlocked)
+                return true;
+
+            RestRequest request = MakeRequest("v1/account/pin/", Method.Get).AddHeader("Referer", "https://www.roblox.com/");
+
+            RestResponse response = AccountManager.AuthClient.Execute(request);
+
+            if (response.IsSuccessful && response.StatusCode == HttpStatusCode.OK)
+            {
+                JObject pinInfo = JObject.Parse(response.Content);
+
+                if (!pinInfo["isEnabled"].Value<bool>() || (pinInfo["unlockedUntil"].Type != JTokenType.Null && pinInfo["unlockedUntil"].Value<int>() > 0)) return true;
+            }
+
+            if (!Internal) MessageBox.Show("Pin required!", "Account Manager", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+            return false;
+        }
+
+        public bool UnlockPin(string Pin)
+        {
+            if (Pin.Length != 4) return false;
+            if (CheckPin(true)) return true;
+
+            if (!GetCSRFToken(out string Token)) return false;
+
+            RestRequest request = MakeRequest("v1/account/pin/unlock", Method.Post)
+                .AddHeader("Referer", "https://www.roblox.com/")
+                .AddHeader("X-CSRF-TOKEN", Token)
+                .AddHeader("Content-Type", "application/x-www-form-urlencoded")
+                .AddParameter("pin", Pin);
+
+            RestResponse response = AccountManager.AuthClient.Execute(request);
+
+            if (response.IsSuccessful && response.StatusCode == HttpStatusCode.OK)
+            {
+                JObject pinInfo = JObject.Parse(response.Content);
+
+                if (pinInfo["isEnabled"].Value<bool>() && pinInfo["unlockedUntil"].Value<int>() > 0)
+                    PinUnlocked = DateTime.Now.AddSeconds(pinInfo["unlockedUntil"].Value<int>());
+
+                if (PinUnlocked > DateTime.Now)
+                {
+                    MessageBox.Show("Pin unlocked for 5 minutes", "Account Manager", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                    return true;
+                }
