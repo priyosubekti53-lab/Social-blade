@@ -8,7 +8,22 @@ Socialblade.com
 Time and date 2025-2026. www.youtube.com
 Analytics Made Easy t
 I'd be happy to help! I can see you've shared a reference to a repository, but I need a bit more clarity on what you'd like me to do.
-
+== Your submission at [[Wikipedia:Articles for creation|Articles for creation]]: [[Draft:The mines|The mines]] (October 16) ==
+<div style="border: solid 1px var(--border-color-warning, #ab7f2a); background-color: var(--background-color-warning-subtle, #fdf2d5); color: inherit; padding: 0.5em 1em; margin: 1.5em; width: 90%;">'''Draft declined'''{{pb}}[[File:AFC-Logo_Decline.svg|50px|left]]Thank you for contributing to Wikipedia. Your draft submission to [[Wikipedia:Articles for creation|Articles for creation]] has been reviewed but not accepted at this time.{{pb}}
+<nowiki> </nowiki>'''Feedback'''{{pb}}The reviewer, DoubleGrazing, left the following feedback:
+{{divbox|gray|3=This draft appears to be blank. If you have not written your text yet, please add your content before resubmitting. If you did write the text, it may be hidden by a formatting error. Please check the "Edit" tab to ensure your text is not inside a comment tag.|}}<!--
+--
+-->
+'''Next steps'''
+* Edit [[Draft:The mines]] to address the points above, making sure to publish any changes.
+* When you are ready to resubmit your draft for review, click the '''Resubmit''' button.
+* If you do not edit your draft in the next 6 months, it [[Wikipedia:Criteria for speedy deletion#G13. Abandoned drafts and Articles for creation submissions|may be deleted]].
+'''Need help?'''
+* For an overview of our policies and guidelines see [[Wikipedia:Everything you need to know|Everything you need to know]].
+* You can ask for help at the <span class="plainlinks" >[//en.wikipedia.org/w/index.php?title=Wikipedia:WikiProject_Articles_for_creation/Help_desk/New_question&withJS=MediaWiki:AFCHD-wizard.js&page=Draft:The_mines&reviewer=DoubleGrazing '''Articles for creation help desk''']</span>, or on the <span class="plainlinks" >[//en.wikipedia.org/w/index.php?title=User_talk:DoubleGrazing&action=edit&section=new&nosummary=1&preload=Template:AfC_decline/HD_preload&preloadparams%5B%5D=Draft:The_mines '''reviewer's talk page''']</span>.
+'''Scam warning'''
+* If anyone asks you for money or payment to publish, protect, or restore a Wikipedia article or draft, it is a scam. [[Wikipedia:Scam warning|Learn about scams on Wikipedia]].
+[[User:DoubleGrazing|DoubleGrazing]] ([[User talk:DoubleGrazing|talk]]) 13:35, 16 October 2026 (UTC)</div><!--Template:AfC decline-->
 From the context, I can see:
 
 Repository: priyosubekti53-lab/Social-blade
