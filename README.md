@@ -1214,7 +1214,7 @@ Be careful executing random scripts when having dangerous settings enabled.
 
 **A:** Yes, there are Docs: https://ic3w0lf22.gitbook.io/roblox-account-manager/
 
-
+https://en.wikipedia.org/wiki/Wikipedia:Edit_filter/False_positives/Reports#Rbwr509
 ## **Q:** My anti virus detects this program as a virus. Should I not use it?
 
 **A:** No. This program is in no way malicious, it's source code is fully available & trusted by a lot of people in the community. Some anti-virus programs may detect Account Manager as malicious because of the auto update function (a similar thing happens with Roblox Studio Mod Manager as well)
