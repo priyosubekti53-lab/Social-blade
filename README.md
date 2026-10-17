@@ -464,7 +464,7 @@ Date: 2026-03-04
 <a className="gh-badge" href="https://datahub.io/core/population-city"><img src="https://badgen.net/badge/icon/View%20on%20datahub.io/orange?icon=https://datahub.io/datahub-cube-badge-icon.svg&label&scale=1.25" alt="badge" /></a>
 
 UNSD Demographic Statistics: City population by sex, city and city type.
-
+{{short description|Wikipedia policy page regarding administrators}}
 ## Data
 Source: [UNData. UNSD Demographic Statistics](http://data.un.org/Data.aspx?d=POP&f=tableCode:240).
 
