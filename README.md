@@ -1260,8 +1260,8 @@ Make sure you click "Open Details" before screenshotting. Please make sure your 
 ## **Q:** Adding an account doesn't work
 
 **A:** Restart the program, this issue will be fixed next update
-
-
+# IAbot
+Wikipedia
 ## **Q:** Can you get banned for using this?
 
 **A:** No, you cannot get banned for using this as this does not break Roblox T.O.S although some games may disallow you from having alt accounts so please do your research if you are unsure.
