@@ -1250,9 +1250,9 @@ https://en.wikipedia.org/wiki/Wikipedia:Edit_filter/False_positives/Reports#Rbwr
 
 **A:** If you have a bug or issue please explain your issue with screenshots (if possible) and/or a highly descriptive explanation in bugs we will try to get back to you ASAP.
 Make sure you click "Open Details" before screenshotting. Please make sure your output is in English.
+# Dead (bots) 
 
-
-## **Q:** I can’t launch multiple accounts repeatedly.
+## **Q:** I can’t launch multiple Accounts repeatedly.
 
 **A:** This is due to Roblox’s rate limiting
 
