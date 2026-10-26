@@ -1224,7 +1224,7 @@ Be careful executing random scripts when having dangerous settings enabled.
 ## **Q:** Can I join vip servers using alt manager?
 
 **A:** Yes you can, just make sure the place id is the same as the game you're trying to join, then paste the whole vip server link into the Job ID box and press Join Server
-
+Co-Founder CEO of Roblox
 
 ## **Q:** Are there docs for the API?
 
