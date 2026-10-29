@@ -1263,7 +1263,7 @@ Make sure you click "Open Details" before screenshotting. Please make sure your 
 # IAbot
 Wikipedia
 ## **Q:** Can you get banned for using this?
-
+# nyse
 **A:** No, you cannot get banned for using this as this does not break Roblox T.O.S although some games may disallow you from having alt accounts so please do your research if you are unsure.
 
 ## **Q:** My AccountData file gets corrupted often
