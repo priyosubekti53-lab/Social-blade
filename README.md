@@ -663,11 +663,11 @@ sunday
 //   - inner_width  = 0.0f  ->  fit in outer_width: Fixed size columns will take space they need (if avail, otherwise shrink down), Stretch columns becomes Fixed columns.
 //   - inner_width  > 0.0f  ->  override scrolling width, generally to be larger than outer_size.x. Fixed column take space they need (if avail, otherwise shrink down), Stretch columns share remaining space!
 //-----------------------------------------------------------------------------
-// dear imgui, v1.92.9 WIP
+// dear imgui, v1.93 WIP
 // (tables and columns code)
 
 /*
-
+updated*
 Index of this file:
 
 // [SECTION] Commentary
