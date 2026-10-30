@@ -1228,7 +1228,27 @@ Be careful executing random scripts when having dangerous settings enabled.
 A '''trillionaire''' is a person whose [[net worth]] is at least one [[1,000,000,000,000|trillion]] units of a given [[currency]], typically the [[US dollar]] due to its status as a [[world currency]].<ref>{{Cite book |last1=Clark|first1=Josh|url=https://books.google.com/books?id=NIbJDwAAQBAJ|title=Stuff You Should Know: An Incomplete Compendium of Mostly Interesting Things|last2=Bryant|first2=Chuck|date=2020-11-24|publisher=[[Flatiron Books]]|isbn=978-1-250-26851-8|page=167|language=en|quote=Obviously when we talk about the possibility of trillionaires, we don't mean by the measure of just any currency. [...] But since the US dollar is considered the world's currency, it is the currency upon which any consistent measure of wealth would have to be based.|author-link1=Josh Clark (host)|author-link2=Chuck Bryant}}</ref> The only person to reach trillionaire status in terms of US dollars is [[Elon Musk]], who first reached trillionaire status upon the [[Initial public offering of SpaceX|initial public offering of his company]] [[SpaceX]] in 2026. Musk's net worth is highly concentrated in SpaceX and SpaceX debuted at a record [[Valuation (finance)|valuation]] of nearly US$2 trillion. Since then, SpaceX's volatile [[Share price|stock price]] has primarily influenced Musk's net worth, with its fluctuations causing him to frequently lose and regain trillionaire status. Several other currencies have had their own trillionaires, sometimes owing to [[hyperinflation]].
 
 ## **Q:** Can I join vip servers using alt manager?
-
+{{Short description|Suburb of Cardiff, Wales}}
+{{for|the electoral ward of the same name|Radyr (electoral ward)}}
+{{Use dmy dates|date=October 2019}}
+{{Use British English|date=March 2025}}
+{{good article}}
+{{Infobox UK place
+| country                     = Wales
+| welsh_name                  = Radur
+| coordinates                 = {{coord|51.51|-3.26|display=inline,title}}
+| official_name               = Radyr
+| community_wales             = [[Radyr and Morganstown]]
+| unitary_wales               = [[Cardiff]]
+| lieutenancy_wales           = [[Cardiff]]
+| constituency_westminster    = [[Cardiff West (UK Parliament constituency)|Cardiff West]]
+| constituency_welsh_assembly = [[Cardiff West (Senedd constituency)|Cardiff West]]
+| post_town                   = Cardiff
+| postcode_district           = CF15
+| postcode_area               = CF
+| dial_code                   = 029
+| os_grid_reference           = ST1380
+| population_Current                 = 7,548
 **A:** Yes you can, just make sure the place id is the same as the game you're trying to join, then paste the whole vip server link into the Job ID box and press Join Server
 Co-Founder CEO of Roblox
 
