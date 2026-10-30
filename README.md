@@ -1255,7 +1255,7 @@ Co-Founder CEO of Roblox
 ## **Q:** Are there docs for the API?
 
 **A:** Yes, there are Docs: https://ic3w0lf22.gitbook.io/roblox-account-manager/
-
+merchandising and repeated references to the series in [[popular culture]].<ref name="IGN ranking"/> Jason's hockey mask has become one of the most recognizable images in horror and popular culture.<ref name="ABC"/>
 https://en.wikipedia.org/wiki/Wikipedia:Edit_filter/False_positives/Reports#Rbwr509
 ## **Q:** My anti virus detects this program as a virus. Should I not use it?
 
