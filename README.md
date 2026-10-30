@@ -1,4 +1,4 @@
-title="Edit this page"# Social-blade
+mtitle="Edit this page"# Social-blade
 Socialblade.com
 <SunSet> 18:08 <sunrise> 05:56
 200 – – 190,000,000 – – – – – –– –
@@ -1291,7 +1291,8 @@ Wikipedia
 ## **Q:** Can you get banned for using this?
 # nyse
 **A:** No, you cannot get banned for using this as this does not break Roblox T.O.S although some games may disallow you from having alt accounts so please do your research if you are unsure.
-
+# spam
+[[username]] 
 ## **Q:** My AccountData file gets corrupted often
 **A:** This is due to ProtectedData failing sometimes. You can disable encryption by creating a file called `NoEncryption.IUnderstandTheRisks.iautamor`. Do this at your own risk, nobody except yourself is responsible for your accounts!
 https://www.worldometers.info/world-population/
