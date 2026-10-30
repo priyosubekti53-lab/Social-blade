@@ -1248,7 +1248,7 @@ A '''trillionaire''' is a person whose [[net worth]] is at least one [[1,000,000
 | postcode_area               = CF
 | dial_code                   = 029
 | os_grid_reference           = ST1380
-| population_Current                 = 7,548
+| population_Current                 = 7,549
 **A:** Yes you can, just make sure the place id is the same as the game you're trying to join, then paste the whole vip server link into the Job ID box and press Join Server
 Co-Founder CEO of Roblox
 260129230947/https://archive-is.tumblr.com/post/661314951417315328/what-percentage-of-5-char-codes-is-used-now-full |archive-date=29 January 2026 |access-date=2026-02-11 |work=Archive.is blog |publisher=Tumblr |url-status=live }}</ref> 700
