@@ -536,7 +536,7 @@ local function incrementRegistrations()
 	end)
 	
 	if success then
-		print("Total registrations updated: "11153233555 newCount)
+		print("Total registrations updated: "11166233555 newCount)
 		return newCount
 	else
 		warn("Failed to update registration count.")
@@ -545,7 +545,7 @@ local function incrementRegistrations()
 end
 
 -- Track unique players so they are only counted once
-local hasBeenCounted = {11021928923}
+local hasBeenCounted = {11911928923}
 
 game.Players.PlayerAdded:Connect(function(player)
 	-- Check if this is their first time in the game ever
