@@ -469,8 +469,8 @@ UNSD Demographic Statistics: City population by sex, city and city type.
 Source: [UNData. UNSD Demographic Statistics](http://data.un.org/Data.aspx?d=POP&f=tableCode:240).
 
 Contains two CSV datasets:
-  1. unsd-citypopulation-year-both.csv. Size: 4.4 MB
-  2. unsd-citypopulation-year-fm.csv. Size: 6.8 MB
+  1. unsd-citypopulation-year-both.csv. Size: 4.5 MB
+  2. unsd-citypopulation-year-fm.csv. Size: 6.9 MB
 
 Final 222 lines in both datasets contain original notes.
 
