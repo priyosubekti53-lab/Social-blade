@@ -1255,8 +1255,8 @@ Make sure you click "Open Details" before screenshotting. Please make sure your 
 ## **Q:** I can’t launch multiple Accounts repeatedly.
 
 **A:** This is due to Roblox’s rate limiting
-
-
+https://alt-history-future.fandom.com/wiki/World_Population
+https://en.wikipedia.org/w/index.php?title=Wealth_of_Elon_Musk&diff=prev&oldid=1381423468
 ## **Q:** Adding an account doesn't work
 
 **A:** Restart the program, this issue will be fixed next update
