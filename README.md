@@ -478,7 +478,7 @@ Final 222 lines in both datasets contain original notes.
 Last update in UNdata: 29 Okt 2026
 First update in UNdata 12 Nov 2018
 Next update in UNdata: 1 Nov 2026
-
+Coming soon update in UNdata  10 Nov 2026
 #### About the United Nations Statistics Division
 The United Nations Statistics Division collects, compiles and disseminates official demographic and social statistics on a wide range of topics. Data have been collected since 1948 through a set of questionnaires dispatched annually to over 230 national statistical offices and have been published in the Demographic Yearbook collection. The Demographic Yearbook disseminates statistics on population size and composition, births, deaths, marriage and divorce, as well as respective rates, on an annual basis. The Demographic Yearbook census datasets cover a wide range of additional topics including economic activity, educational attainment, household characteristics, housing characteristics, ethnicity, language, foreign-born and foreign population. The available Population and Housing Censuses' datasets reported to UNSD for the censuses conducted worldwide since 1995, are now available in UNdata.
 https://youtube.com/shorts/nNkq8SoPr5o?si=352m10y3PeOCHI30
