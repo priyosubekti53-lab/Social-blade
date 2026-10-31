@@ -1266,7 +1266,7 @@ https://en.wikipedia.org/wiki/Wikipedia:Edit_filter/False_positives/Reports#Rbwr
 ## **Q:** Can you use this on Mac?
 
 **A:** No, unfortunately we do not have compatibility with mac osx devices at this moment. This may change in the future.
-India population 
+India population 1,427,995,999
 
 ## **Q:** You should add ${feature}.
 Edit 1,279,566,999
