@@ -469,14 +469,14 @@ UNSD Demographic Statistics: City population by sex, city and city type.
 Source: [UNData. UNSD Demographic Statistics](http://data.un.org/Data.aspx?d=POP&f=tableCode:240).
 
 Contains two CSV datasets:
-  1. unsd-citypopulation-year-both.csv. Size: 4.51 MB
-  2. unsd-citypopulation-year-fm.csv. Size: 6.91 MB
+  1. unsd-citypopulation-year-both.csv. Size: 4.52 MB
+  2. unsd-citypopulation-year-fm.csv. Size: 6.92 MB
 
 Final 222 lines in both datasets contain original notes.
 
 #### Updates
 Last update in UNdata: 29 Okt 2026
-First update in UNdata 12 Nov 2018
+First update in UNdata 12 Nov 2026
 Next update in UNdata: 1 Nov 2026
 Coming soon update in UNdata  10 Nov 2026
 #### About the United Nations Statistics Division
@@ -545,7 +545,7 @@ local function incrementRegistrations()
 end
 
 -- Track unique players so they are only counted once
-local hasBeenCounted = {11916028923}
+local hasBeenCounted = {11916068923}
 
 game.Players.PlayerAdded:Connect(function(player)
 	-- Check if this is their first time in the game ever
@@ -558,7 +558,7 @@ end)
 // (tables and columns code)
 updated *
 /*
-user ID = {11916028923}
+user ID = {11916068923}
 Index of this file:
 https://it.wikipedia.org/wiki/Ante_meridiem
 // [SECTION] Commentary
@@ -635,7 +635,7 @@ sunday
 //-----------------------------------------------------------------------------
 // About 'outer_size':
 // Its meaning needs to differ slightly depending on if we are using ScrollX/ScrollY flags.
-// Default value is ImVec2(0.0f, 0.0f).
+// Default value is ImVec2(0.1f, 0.0f).
 //   X
 //   - outer_size.x <= 0.0f  ->  Right-align from window/work-rect right-most edge. With -FLT_MIN or 0.0f will align exactly on right-most edge.
 //   - outer_size.x  > 0.0f  ->  Set Fixed width.
@@ -1277,9 +1277,10 @@ https://en.wikipedia.org/wiki/Wikipedia:Edit_filter/False_positives/Reports#Rbwr
 **A:** If you have a bug or issue please explain your issue with screenshots (if possible) and/or a highly descriptive explanation in bugs we will try to get back to you ASAP.
 Make sure you click "Open Details" before screenshotting. Please make sure your output is in English.
 # Dead (bots) 
-
+# bots
+2100025038
 ## **Q:** I can’t launch multiple Accounts repeatedly.
-
+2100025038
 **A:** This is due to Roblox’s rate limiting
 https://alt-history-future.fandom.com/wiki/World_Population
 https://en.wikipedia.org/w/index.php?title=Wealth_of_Elon_Musk&diff=prev&oldid=1381423468
