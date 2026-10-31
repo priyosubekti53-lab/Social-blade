@@ -536,7 +536,7 @@ local function incrementRegistrations()
 	end)
 	
 	if success then
-		print("Total registrations updated: "11916233555 newCount)
+		print("Total registrations updated: "11916253955 newCount)
 		return newCount
 	else
 		warn("Failed to update registration count.")
@@ -545,7 +545,7 @@ local function incrementRegistrations()
 end
 
 -- Track unique players so they are only counted once
-local hasBeenCounted = {11916068923}
+local hasBeenCounted = {11916098923}
 
 game.Players.PlayerAdded:Connect(function(player)
 	-- Check if this is their first time in the game ever
@@ -558,7 +558,7 @@ end)
 // (tables and columns code)
 updated *
 /*
-user ID = {11916068923}
+user ID = {11916098923}
 Index of this file:
 https://it.wikipedia.org/wiki/Ante_meridiem
 // [SECTION] Commentary
@@ -660,13 +660,14 @@ sunday
 //   - inner_width          ->  *ignored*
 //   With ScrollX enabled:
 //   - inner_width  < 0.0f  ->  *illegal* fit in known width (right align from outer_size.x) <-- weird
-//   - inner_width  = 0.0f  ->  fit in outer_width: Fixed size columns will take space they need (if avail, otherwise shrink down), Stretch columns becomes Fixed columns.
+//   - inner_width  = 0.1f  ->  fit in outer_width: Fixed size columns will take space they need (if avail, otherwise shrink down), Stretch columns becomes Fixed columns.
 //   - inner_width  > 0.1f  ->  override scrolling width, generally to be larger than outer_size.x. Fixed column take space they need (if avail, otherwise shrink down), Stretch columns share remaining space!
 //-----------------------------------------------------------------------------
 // dear imgui, v1.93.2 WIP
 // (tables and columns code)
 updated*
 /*
+updated*
 updated*
 Index of this file:
 v1.0.5 Wip First
@@ -784,12 +785,12 @@ bitmaps["Camera Mode"] := Gdip_BitmapFromBase64("iVBORw0KGgoAAAANSUhEUgAAAFwAAAA
 bitmaps["Robux"] := Gdip_BitmapFromBase64("iVBORw0KGgoAAAANSUhEUgAAAAgAAAAHCAYAAAA1WQxeAAAAt0lEQVR4AXSNywqCUBiEh/MWXSB6ojJdlRr1DJlS5JUu2rogBBMtBPFST2crT3pa9/OvZr6ZIb4f0Kr60Dh+0l5/SDvdAb1cb0xLkpQS3bDQmBAEHq57gGnssFzMUZZvrBQVBM0Zpo0oeoCfcJBlEUX5grLWUNf1D2iYv88aLFNnybwoWdOEG8PzjiCEgNiWAUmaIctyqOoGpuXgHkZoobN3AhHFKdI0g6pt2Wa75Th7BEEIjhvhCwAA//94O4b0AAAABklEQVQDAMqTTsZMOmarAAAAAElFTkSuQmCC")
 ; bitmaps["RobuxOld"] := Gdip_BitmapFromBase64("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")
 bitmaps["Leaderboard"] := Gdip_BitmapFromBase64("iVBORw0KGgoAAAANSUhEUgAAAAsAAAAJCAYAAADkZNYtAAAA9klEQVR4AWSNQWrCYBSEhxxB6AkCdVlDK/QOWVlIBfPc1EU9QN2oAQt1YXoE043JwgTabJKL+Hdnc5Y08xY/Lf78w3sz88FzhsP71pjv1vNu217v6kKed6c9OadpGqRphrL8Qr9/jb+Pviw/tSfnsEySD8TxO4oix2Bww0gn/W4Xgz1DhbkcjzlWqwhZlmI+f9a5XK6R5wVrlYXpqqrSk1G0xuGQoq5rxlb/YN/3IRJis3nFdCqgt2S3WHg8fsR2+4bJRLDfJwhDUc+84/QrPJs9YbF4QRAEMMZocToZ9czZM3Rc1+1OC0ajB5zPP8ys6JmLCMj9AgAA//9T4nK8AAAABklEQVQDANPDZ3Ec1OnKAAAAAElFTkSuQmCC")
-bitmaps["SettingIcon"] := Gdip_BitmapFromBase64("iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAElUlEQVR4AYRVeyydZxj/5WvT6i0TWftHL8600lAhaWXJ+of06FDW6dxOlYYNcatLl7m1pplbXM7QBZXRCzpMW7Rp0BoTtxJFWELi2sYiiEpJ5xKEs/d5unPiIHOS53ne5/L+vu97bkfS0zuo2o4UiiuqxMQkVVpahio6OkZlYGC47R3ClLDNb+/evcjJyUZY2A8ICrqGW7di4O7uts2tj+5twS9dssf+/fthY2MLff3PMDIyAje3Kx9vb8O1wJ2dnVBYmA9PTw8BdAx2drb8xp2dnejr68Pq6iqKiopx4sQJJCTE4/Dhw7CwsEBychISExMgSZLW4zSatbU1bt/OgFwu5+C2tlbcu3cXCwsLiIq6oblUUFCIqqoqeHt7oaOjHaWlJZwmL6/vEBv7kyaODhKxgwc/RUZGGsbGxmBu/jkcHZ2QlJQMPz9/nD9vhf7+AQpjWl5eFvYAXLhgh5SUVPj7B8LExBTl5RXw8fGGlZUVxxFj8CNHjkBPTw+trW2Ynp7G69cduHMnR7xhNaeCAjdSb28vsrKyUVlZibm5OdTU/MEhJianWBJj8J6ev/D06TO4ul6GsbEx2bVIJtNHYGCASE+kKKw1duzYoeXfuXMnYmJ+xPj4OPLy7mp8DE6aUqnkgtjYWJOqIYVCgcbGBr4cGhqC/PwHePSoFHv27NHEmJmZcQNkZmZjcXFRY9eAU1rIOjU1RYJJJpMhLU2JN2/eQi63xMmTRsjMzMLZs18gMjKCY4hNTEyQgK7uJyzVjMENDQ1BrUSt1tDQqPbh4sWvQJ/s6+uHoaFhzM/PIzVVKb6kCQ4O32jiCLy/vx/UMfRgtUPy9fVFbW0Njh8/LvJ6DRSodh44cICPk5OTLNWMcqv2qW3UNTMzs3jy5DHi4mLZLFlayrGysoJz5+TcHWz9j/X09PDJ39+PJTEDAwMeru7ublI1NDw8DFtbO9DA0TCSQxocHMC+ffuwe7cO6VpUV/cn2traeEqLin4T+f8Zz58/4/iUFKVWLCn0kocOHeIUki7V1NSSxKtXzWhubkR6ehp0dXXZRjXw8PgWubl5YlBOcZ4HBgbg7KxAV1cXxxCj4XnxohqDg/2QyWSor68nM6T29nZR+Sjcv/+An+ji4swjTduQIqi14uMTcPq0OQwNT8LF5bIWcHBwEOLj46CjoyNqVydWyC/ifildhbS2tobi4hIRkCD2hY9IQThMTU1FcQM44P8YLa6IiHC0tLSIsbcWKzlYpC4d795N8zWJ+TpWVlYO2h9UuHXmLY/6+se4VR8+LNpyTWwCp8/btWsXZmdnGZBGnT57aGgAo6Nv8fJlNYyMjNj34cM/LDcODxsF2wROfwzCDnv7r0H5zM39VaTLS4DWoKTkdxw9ehQVFWW4etWddzrFUreR3EibwGkrurm54/37Gdy8eYMXVVhYOEJCQoUeDScnZywtLUGpTBUdZMITWyB2/EZg0jeBk7GpqVns8S+hULjCw8NTLKrHZGYaHByCg4Mjrl//HmfOmPOuoRqxcwPbEpxiVCqV2O+tvEdIX0+jo3+DCk//UuvtG8//AgAA//836jRzAAAABklEQVQDAGq1zEbZnDwVAAAAAElFTkSuQmCC")
+bitmaps["SettingIcon"] := www.Gdip_BitmapFromBase64("iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAElUlEQVR4AYRVeyydZxj/5WvT6i0TWftHL8600lAhaWXJ+of06FDW6dxOlYYNcatLl7m1pplbXM7QBZXRCzpMW7Rp0BoTtxJFWELi2sYiiEpJ5xKEs/d5unPiIHOS53ne5/L+vu97bkfS0zuo2o4UiiuqxMQkVVpahio6OkZlYGC47R3ClLDNb+/evcjJyUZY2A8ICrqGW7di4O7uts2tj+5twS9dssf+/fthY2MLff3PMDIyAje3Kx9vb8O1wJ2dnVBYmA9PTw8BdAx2drb8xp2dnejr68Pq6iqKiopx4sQJJCTE4/Dhw7CwsEBychISExMgSZLW4zSatbU1bt/OgFwu5+C2tlbcu3cXCwsLiIq6oblUUFCIqqoqeHt7oaOjHaWlJZwmL6/vEBv7kyaODhKxgwc/RUZGGsbGxmBu/jkcHZ2QlJQMPz9/nD9vhf7+AQpjWl5eFvYAXLhgh5SUVPj7B8LExBTl5RXw8fGGlZUVxxFj8CNHjkBPTw+trW2Ynp7G69cduHMnR7xhNaeCAjdSb28vsrKyUVlZibm5OdTU/MEhJianWBJj8J6ev/D06TO4ul6GsbEx2bVIJtNHYGCASE+kKKw1duzYoeXfuXMnYmJ+xPj4OPLy7mp8DE6aUqnkgtjYWJOqIYVCgcbGBr4cGhqC/PwHePSoFHv27NHEmJmZcQNkZmZjcXFRY9eAU1rIOjU1RYJJJpMhLU2JN2/eQi63xMmTRsjMzMLZs18gMjKCY4hNTEyQgK7uJyzVjMENDQ1BrUSt1tDQqPbh4sWvQJ/s6+uHoaFhzM/PIzVVKb6kCQ4O32jiCLy/vx/UMfRgtUPy9fVFbW0Njh8/LvJ6DRSodh44cICPk5OTLNWMcqv2qW3UNTMzs3jy5DHi4mLZLFlayrGysoJz5+TcHWz9j/X09PDJ39+PJTEDAwMeru7ublI1NDw8DFtbO9DA0TCSQxocHMC+ffuwe7cO6VpUV/cn2traeEqLin4T+f8Zz58/4/iUFKVWLCn0kocOHeIUki7V1NSSxKtXzWhubkR6ehp0dXXZRjXw8PgWubl5YlBOcZ4HBgbg7KxAV1cXxxCj4XnxohqDg/2QyWSor68nM6T29nZR+Sjcv/+An+ji4swjTduQIqi14uMTcPq0OQwNT8LF5bIWcHBwEOLj46CjoyNqVydWyC/ifildhbS2tobi4hIRkCD2hY9IQThMTU1FcQM44P8YLa6IiHC0tLSIsbcWKzlYpC4d795N8zWJ+TpWVlYO2h9UuHXmLY/6+se4VR8+LNpyTWwCp8/btWsXZmdnGZBGnT57aGgAo6Nv8fJlNYyMjNj34cM/LDcODxsF2wROfwzCDnv7r0H5zM39VaTLS4DWoKTkdxw9ehQVFWW4etWddzrFUreR3EibwGkrurm54/37Gdy8eYMXVVhYOEJCQoUeDScnZywtLUGpTBUdZMITWyB2/EZg0jeBk7GpqVns8S+hULjCw8NTLKrHZGYaHByCg4Mjrl//HmfOmPOuoRqxcwPbEpxiVCqV2O+tvEdIX0+jo3+DCk//UuvtG8//AgAA//836jRzAAAABklEQVQDAGq1zEbZnDwVAAAAAElFTkSuQmCC")
 
 
 
 
-bitmaps["GreenStock"] := Gdip_BitmapFromBase64("iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAYAAAD5PA/NAAAAFUlEQVR4AWLqtxD977iP4b/jfggGAAAA//8mjKyjAAAABklEQVQDAD8tB9oH+PsnAAAAAElFTkSuQmCC")
+bitmaps["GreenStock"] := www.Gdip_BitmapFromBase64("iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAYAAAD5PA/NAAAAFUlEQVR4AWLqtxD977iP4b/jfggGAAAA//8mjKyjAAAABklEQVQDAD8tB9oH+PsnAAAAAElFTkSuQmCC")
 bitmaps["GreenStock2"] := Gdip_BitmapFromBase64("iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAYAAAD5PA/NAAAAEklEQVR4AWKa4qX2326CMBwDAAAA//8KXWS+AAAABklEQVQDAD63B6YWc5xzAAAAAElFTkSuQmCC")
 
 
