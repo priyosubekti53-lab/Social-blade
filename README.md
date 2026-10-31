@@ -1266,10 +1266,10 @@ https://en.wikipedia.org/wiki/Wikipedia:Edit_filter/False_positives/Reports#Rbwr
 ## **Q:** Can you use this on Mac?
 
 **A:** No, unfortunately we do not have compatibility with mac osx devices at this moment. This may change in the future.
-
+India population 
 
 ## **Q:** You should add ${feature}.
-
+Edit 1,279,566,999
 **A:** If you have a idea or a request for a feature you can submit such ideas/requests in suggestions
 fully
 
