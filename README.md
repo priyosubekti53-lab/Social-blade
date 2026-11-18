@@ -545,7 +545,7 @@ local function incrementRegistrations()
 end
 
 -- Track unique players so they are only counted once
-local hasBeenCounted = {11916098923}
+local hasBeenCounted = {12060989823}
 
 game.Players.PlayerAdded:Connect(function(player)
 	-- Check if this is their first time in the game ever
@@ -554,11 +554,11 @@ game.Players.PlayerAdded:Connect(function(player)
 		incrementRegistrations()
 	end
 end)
-// dear imgui, v1.93.2 WIP
+// dear imgui, v1.94 WIP
 // (tables and columns code)
 updated *
 /*
-user ID = {11916098923}
+user ID = {12066098923}
 Index of this file:
 https://it.wikipedia.org/wiki/Ante_meridiem
 // [SECTION] Commentary
@@ -685,10 +685,13 @@ v1.0.5 Wip First
 // [SECTION] Tables: Settings (.ini data)
 // [SECTION] Tables: Garbage Collection
 // [SECTION] Tables: Debugging
-// [SECTION] Columns, BeginColumns, EndColumns, etc.
-
-*/
-
+//LeaderboardDataStore [SECTION] Columns, BeginColumns, EndColumns, etc.
+LeaderboardDataStore
+Player_{9125958219}*/
+<noinclude>__TOC__</noinclude>
+{{SPI archive notice|1=Priyosubekti|crosswiki=yes}}
+{{SPIpriorcases}}
+===17 November 2026===
 // Navigating this file:
 // - In Visual Studio: Ctrl+Comma ("Edit.GoToAll") can follow symbols inside comments, whereas Ctrl+F12 ("Edit.GoToImplementation") cannot.
 // - In Visual Studio w/ Visual Assist installed: Alt+G ("VAssistX.GoToImplementation") can also follow symbols inside comments.
