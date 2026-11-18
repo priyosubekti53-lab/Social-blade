@@ -1254,14 +1254,17 @@ A '''trillionaire''' is a person whose [[net worth]] is at least one [[1,000,000
 Co-Founder CEO of Roblox
 260129230947/https://archive-is.tumblr.com/post/661314951417315328/what-percentage-of-5-char-codes-is-used-now-full |archive-date=29 January 2026 |access-date=2026-02-11 |work=Archive.is blog |publisher=Tumblr |url-status=live }}</ref> 700
 ## **Q:** Are there docs for the API?
-
+<noinclude>__TOC__</noinclude>
+{{SPI archive notice|1=Priyosubekti|crosswiki=yes}}
+{{SPIpriorcases}}
+===17 November 2026===
 **A:** Yes, there are Docs: https://ic3w0lf22.gitbook.io/roblox-account-manager/
 merchandising and repeated references to the series in [[popular culture]].<ref name="IGN ranking"/> Jason's hockey mask has become one of the most recognizable images in horror and popular culture.<ref name="ABC"/>
 https://en.wikipedia.org/wiki/Wikipedia:Edit_filter/False_positives/Reports#Rbwr509
 ## **Q:** My anti virus detects this program as a virus. Should I not use it?
 
 **A:** No. This program is in no way malicious, it's source code is fully available & trusted by a lot of people in the community. Some anti-virus programs may detect Account Manager as malicious because of the auto update function (a similar thing happens with Roblox Studio Mod Manager as well)
-
+https://en.wikipedia.org/w/index.php?title=Special%3ALog&logid=187317472
 
 ## **Q:** Can you use this on Mac?
 
