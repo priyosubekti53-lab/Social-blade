@@ -1265,7 +1265,7 @@ Co-Founder CEO of Roblox
 merchandising and repeated references to the series in [[popular culture]].<ref name="IGN ranking"/> Jason's hockey mask has become one of the most recognizable images in horror and popular culture.<ref name="ABC"/>
 https://en.wikipedia.org/wiki/Wikipedia:Edit_filter/False_positives/Reports#Rbwr509
 ## **Q:** My anti virus detects this program as a virus. Should I not use it?
-
+https://stockanalysis.com/stocks/ant/
 **A:** No. This program is in no way malicious, it's source code is fully available & trusted by a lot of people in the community. Some anti-virus programs may detect Account Manager as malicious because of the auto update function (a similar thing happens with Roblox Studio Mod Manager as well)
 https://en.wikipedia.org/w/index.php?title=Special%3ALog&logid=187317472
 
