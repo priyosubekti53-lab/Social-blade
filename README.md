@@ -1270,14 +1270,14 @@ https://stockanalysis.com/stocks/ant/
 https://en.wikipedia.org/w/index.php?title=Special%3ALog&logid=187317472
 
 ## **Q:** Can you use this on Mac?
-
+https://stockanalysis.com/stocks/mdrn/
 **A:** No, unfortunately we do not have compatibility with mac osx devices at this moment. This may change in the future.
 India population 1,427,995,999
 
 ## **Q:** You should add ${feature}.
 Edit 1,279,566,999
 **A:** If you have a idea or a request for a feature you can submit such ideas/requests in suggestions
-fully
+fullyhttps://stockanalysis.com/stocks/mdrn/
 
 ## **Q:** I’ve encountered a bug/issue on this software
 
