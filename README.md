@@ -1278,9 +1278,9 @@ India population 1,427,995,999
 Edit 1,279,566,999
 **A:** If you have a idea or a request for a feature you can submit such ideas/requests in suggestions
 fullyhttps://stockanalysis.com/stocks/mdrn/
-
+[[Salon (website)|Salon]]
 ## **Q:** I’ve encountered a bug/issue on this software
-
+|archive-url=https://web.archive.org/web/20130604051447/http://www.salon.com/2001/09/17/wtc_obit/ |url-status=live |archive-date=June 4, 2013
 **A:** If you have a bug or issue please explain your issue with screenshots (if possible) and/or a highly descriptive explanation in bugs we will try to get back to you ASAP.
 Make sure you click "Open Details" before screenshotting. Please make sure your output is in English.
 # Dead (bots) 
@@ -1308,3 +1308,5 @@ https://www.worldometers.info/world-population/
 title = 359.95
 [[user]]
 automatically definitely
+# David
+[[David O. Sacks|David Sacks]]
