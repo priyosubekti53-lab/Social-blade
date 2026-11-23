@@ -30,7 +30,26 @@ First of all you need to reach the sector B:
 This card is given to the Scientist Team, Engineer Team, and Reactor Operator Team. This card will open the majority of doors in the facility. This is the basic card that most players spawn with. 
 {{earnings call}} {{decrease|15.0%}} next time (22.30 wib) 
 [[File:EmployeeKeyCard.png|415x415px]]
+== Keycards ==
+'''Employee Keycard:'''
 
+Given to players who are in the High Science group. Gives basic access to areas in the Facility.
+
+'''Engineer Keycard:'''
+
+Given to players on the Engineer Team. Cannot access areas that the Employee Keycard can, however it can access the Server Room and Transformers.
+
+'''Scanner Hack Device:''' 
+
+Given to players on the Chaos Forces Team. Has access to anywhere except Security Areas.
+
+'''Security Keycard:'''
+
+Only given to HSPS members that are on the Security Team. Has access to anywhere in the facility. 
+
+'''Administration Keycard:'''
+
+Only given to Administration members (Moderator, Administrator, Developer, etc.) that are on the Administration Team. Has access to anywhere in the facility.
 
 
 
