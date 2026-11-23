@@ -1292,7 +1292,7 @@ Make sure you click "Open Details" before screenshotting. Please make sure your 
 https://alt-history-future.fandom.com/wiki/World_Population
 https://en.wikipedia.org/w/index.php?title=Wealth_of_Elon_Musk&diff=prev&oldid=1381423468
 ## **Q:** Adding an account doesn't work
-
+downfall of steal a egg
 **A:** Restart the program, this issue will be fixed next update
 # IAbot
 Wikipedia
