@@ -30,6 +30,35 @@ On the first view Classified Part Underground Facility (CPUF) looks hard to play
 '''Tools+ Gamepass:''' 
 == Misc. Items ==
 '''Flashlight:''' 
+== Common Roles ==
+
+{{ImageNav
+|
+{{ImageNav/entry
+|image=Janitor Spawn.png
+|title=Janitor
+|page=Janitor
+|stroke=#756448
+}}
+{{ImageNav/entry
+|image=Experimental Workspaces.png
+|title=Scientist
+|page=Scientist
+|stroke=#948D7B
+}}
+{{ImageNav/entry
+|image=Engineer Spawn.png
+|title=Engineer
+|page=Engineer
+|stroke=#86724F
+}}
+{{ImageNav/entry
+|image=Reactor Controls.png
+|title=Reactor Operator
+|page=Reactor Operator
+|stroke=#9F7660
+}}
+}}
 
 Spawns with everyone on all teams. Used to Illuminate dark areas (duh.)
 
