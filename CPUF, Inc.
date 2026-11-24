@@ -37,6 +37,15 @@ A group of people (most likely rogue personnel) that attack the facility in orde
 Personnel that collect and experiment on crystals, making different types and purifying them so that they can be submitted for ECFR fuel processing.
 == Maintenance ==
 This team ensures a proper structural integrity of the facility, by fixing the walls, scanners, coolant pumps and by refuelling the ECFR lasers in case they lack fuel. This team is also very important in case of a FFD event due to their facility access. 
+== Security ==
+A group of highly trained operatives that work specifically for the High Science as a private security force. In order to join this team, you need to join the HSPS server (you can find it below, in the "Factions Servers" section) and pass the Recruitment Academy. You can find more information regarding this on the server itself. '''Security personnel can enter the Security-only areas.'''
+
+This team:
+* Protects the facility by killing the Chaos Forces members and disabling FFD and Warhead events. Security also makes sure the ECFR doesn't stall nor enters the instability phase.
+* Spawns with an armor (and can choose other ones under [CLASSIFIED] circumstances).
+* Has one primary and one secondary gun, as well as a Security Keycard, that gives access to ALL the doors in the facility and allows to activate the topside lockdown.
+* Usually communicates in team chat, using global one mostly for giving out warnings.
+* Can issue the the ECFR's control room lockdown.
 
 This team:
 * Spawns with both Employee Keycard AND Maintenance Keycard, that gives access to special places such as the '''servers room'''.
@@ -203,7 +212,7 @@ The Shield is a protective tool/weapon used by HSPS and is only obtainable by HS
 First of all you need to reach the sector B:
 == Employee Keycard ==
 This card is given to the Scientist Team, Engineer Team, and Reactor Operator Team. This card will open the majority of doors in the facility. This is the basic card that most players spawn with. 
-{{earnings call}} {{decrease|15.0%}} next time (22.30 wib) 
+{{earnings call}} {{decrease|16.0%}} next time (12.30 wib) 
 [[File:EmployeeKeyCard.png|415x415px]]
 == Keycards ==
 '''Employee Keycard:'''
