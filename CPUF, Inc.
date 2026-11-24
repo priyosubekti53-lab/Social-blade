@@ -46,6 +46,18 @@ This team:
 * Has one primary and one secondary gun, as well as a Security Keycard, that gives access to ALL the doors in the facility and allows to activate the topside lockdown.
 * Usually communicates in team chat, using global one mostly for giving out warnings.
 * Can issue the the ECFR's control room lockdown.
+== Administration ==
+A team with the highest authority, has full access to facility (including access to Security-only areas). The rank on this team depends on an actual rank within the staff's hierarchy. '''The only people who can join this team are the Moderation Team members, Administrators and Developers of High Science.''' Its only possible to join the Moderation or Development team when the applications open.
+
+This team:
+* Spawns with an Admin Keycard, that has the same access as the Security Keycard.
+* Is usually used by staff while either investigating a case, watching the fight between CF and HSPS or during admin vote events.
+* Can host an admin vote. After that, the chosen event will be made by them. If Warhead or FFD events were chosen in an admin vote, '''Security personnel can NOT interfere.'''
+* Is immune to ALL weapons in the game for all the combat teams, even in classified areas.
+* Has 3 ranks: Moderation Team (for normal and Senior Moderators), Moderation Manager and Administrator. Do not confuse Administrator with Administration team, as the team is made for ALL the staff members, while Administrator is the highest rank in the hierarchy (just below the Lead Developer/Owner) that manages the whole community.
+
+</div>
+</div>
 
 This team:
 * Spawns with both Employee Keycard AND Maintenance Keycard, that gives access to special places such as the '''servers room'''.
